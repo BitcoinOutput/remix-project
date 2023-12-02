@@ -236,7 +236,7 @@
     "@nrwl/node": "15.7.1",
     "@nrwl/react": "15.7.1",
     "@nrwl/tao": "^15.7.1",
-    "@nrwl/web": "15.7.1",
+    "@nrwl/web": "15.8.0",
     "@nrwl/webpack": "15.7.1",
     "@nrwl/workspace": "^15.7.1",
     "@openzeppelin/contracts-upgradeable": "^4.8.1",
