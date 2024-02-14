@@ -26,7 +26,7 @@
     "@ethereumjs/tx": "^4.1.1",
     "@ethereumjs/util": "^8.0.5",
     "@ethereumjs/vm": "^6.4.1",
-    "@remix-project/remix-astwalker": "^0.0.55",
+    "@remix-project/remix-astwalker": "^0.0.70",
     "@remix-project/remix-lib": "^0.5.25",
     "@remix-project/remix-simulator": "^0.2.25",
     "@remix-project/remix-solidity": "^0.5.11",
