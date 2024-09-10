@@ -3,7 +3,9 @@
   "version": "0.5.34",
   "description": "Tool to perform static analysis on Solidity smart contracts",
   "scripts": {
-    "test": "./../../node_modules/.bin/ts-node --project ../../tsconfig.base.json --require tsconfig-paths/register ./../../node_modules/.bin/tape ./test/tests.ts"
+    "test": "./../../node_modules/.bin/ts-node --project ../../tsconfig.base.json --require tsconfig-paths/register ./../../node_modules/.bin/tape ./test/tests.ts",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "types": "src/index.d.ts",
   "contributors": [
@@ -25,13 +27,14 @@
     "@ethereumjs/tx": "^4.1.1",
     "@ethereumjs/util": "^8.0.5",
     "@ethereumjs/vm": "^6.4.1",
-    "@remix-project/remix-astwalker": "^0.0.55",
+    "@remix-project/remix-astwalker": "^0.0.75",
     "@remix-project/remix-lib": "^0.5.25",
     "async": "^2.6.2",
     "ethers": "^5.4.2",
     "ethjs-util": "^0.1.6",
     "string-similarity": "^4.0.4",
-    "web3": "^1.5.1"
+    "web3": "^4.0.1",
+    "@snyk/protect": "latest"
   },
   "publishConfig": {
     "access": "public"
@@ -51,5 +54,6 @@
   },
   "typings": "src/index.d.ts",
   "gitHead": "79fcaa673265865732f1b996ac48b2e20aba1995",
-  "main": "./src/index.js"
+  "main": "./src/index.js",
+  "snyk": true
 }
