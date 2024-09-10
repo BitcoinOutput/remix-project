@@ -44,7 +44,7 @@
     "@remix-project/remix-lib": "^0.5.25",
     "@remix-project/remix-simulator": "^0.2.25",
     "@remix-project/remix-solidity": "^0.5.11",
-    "@remix-project/remix-url-resolver": "^0.0.42",
+    "@remix-project/remix-url-resolver": "^0.0.67",
     "ansi-gray": "^0.1.1",
     "async": "^2.6.0",
     "axios": "1.1.2",
@@ -62,7 +62,7 @@
     "string-similarity": "^4.0.4",
     "time-stamp": "^2.2.0",
     "tslib": "^2.3.0",
-    "web3": "^1.5.1",
+    "web3": "^4.0.1",
     "winston": "^3.0.0"
   },
   "devDependencies": {
